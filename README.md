@@ -4,6 +4,20 @@ Learn to build low-power sensing applications with the fifth-generation Multi-Se
 
 <p align="center"><img src="assets/image_psoc_sense_applications.png" alt="PSOC™ 4 Multi-Sense applications across appliances, personal care, robotics, smart home, wearables, and gaming" width="640"></p>
 
+## Access the training material
+
+Use the course links below to open each training directly on Infineon GitHub. All six course repositories are also included under `courses/` as Git submodules. To clone the complete collection, use:
+
+```sh
+git clone --recurse-submodules https://github.com/luisreynosoIFX/mtb-training-psoc-multi-sense.git
+```
+
+If you already cloned the hub without submodules, initialize them with:
+
+```sh
+git submodule update --init --recursive
+```
+
 ## Get started
 
 New to PSOC™ 4 MSCLP? Start with common peripheral concepts, then continue with CAPSENSE™ and choose the sensing path that fits your application:
@@ -23,4 +37,4 @@ These advanced trainings build on PSOC™ 4 and CAPSENSE experience:
 
 ## Training index
 
-Browse the [PSOC™ 4 section of the ModusToolbox™ training catalog](https://github.com/Infineon/training-modustoolbox) for these and other PSOC™ 4 trainings.
+Browse the [PSOC™ 4 section of the ModusToolbox™ training catalog](https://github.com/luisreynosoIFX/training-modustoolbox) for these and other PSOC™ 4 trainings.
