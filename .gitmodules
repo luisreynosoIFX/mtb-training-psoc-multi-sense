@@ -1,0 +1,18 @@
+[submodule "courses/mtb-training-psoc-digital-peripherals"]
+	path = courses/mtb-training-psoc-digital-peripherals
+	url = https://github.com/Infineon/mtb-training-psoc-digital-peripherals.git
+[submodule "courses/mtb-training-psoc-4-msclp-capsense"]
+	path = courses/mtb-training-psoc-4-msclp-capsense
+	url = https://github.com/Infineon/mtb-training-psoc-4-msclp-capsense.git
+[submodule "courses/mtb-training-psoc-4-msclp-inductive"]
+	path = courses/mtb-training-psoc-4-msclp-inductive
+	url = https://github.com/Infineon/mtb-training-psoc-4-msclp-inductive.git
+[submodule "courses/mtb-training-psoc-4-msclp-lls"]
+	path = courses/mtb-training-psoc-4-msclp-lls
+	url = https://github.com/Infineon/mtb-training-psoc-4-msclp-lls.git
+[submodule "courses/mtb-training-psoc-4-msclp-bist"]
+	path = courses/mtb-training-psoc-4-msclp-bist
+	url = https://github.com/Infineon/mtb-training-psoc-4-msclp-bist.git
+[submodule "courses/mtb-training-psoc-4-safety-test"]
+	path = courses/mtb-training-psoc-4-safety-test
+	url = https://github.com/Infineon/mtb-training-psoc-4-safety-test.git
