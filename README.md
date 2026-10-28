@@ -6,31 +6,39 @@ Learn to build low-power sensing applications with the fifth-generation Multi-Se
 
 ## Access the training material
 
-Use the course links below to open each training directly on Infineon GitHub. All six course repositories are also included under `courses/` as Git submodules. To clone the complete collection, use:
+There are two ways to get the training material:
 
-```sh
-git clone --recurse-submodules https://github.com/luisreynosoIFX/mtb-training-psoc-multi-sense.git
-```
+- **Open a single training:** Select any course link on this page to open that training on Infineon GitHub. No cloning is needed.
+- **Get everything:** Clone this repository with submodules to download all six courses under `courses/` at once:
 
-If you already cloned the hub without submodules, initialize them with:
+  ```sh
+  git clone --recurse-submodules https://github.com/luisreynosoIFX/mtb-training-psoc-multi-sense.git
+  ```
 
-```sh
-git submodule update --init --recursive
-```
+  If you already cloned it without submodules, initialize them with:
+
+  ```sh
+  git submodule update --init --recursive
+  ```
 
 ## Get started
 
-New to PSOC™ 4 MSCLP? Start with common peripheral concepts, then continue with CAPSENSE™ and choose the sensing path that fits your application:
+New to PSOC™ 4 MSCLP? Start with CAPSENSE™, then choose the sensing path that fits your application:
 
-1. [PSOC™ digital peripherals training](https://github.com/Infineon/mtb-training-psoc-digital-peripherals) — Build a foundation in project creation and common peripherals, including GPIO, UART, SCBs, TCPWMs, interrupts, SysTick, and WDT across PSOC™ 4, PSOC™ 6, and PSOC™ Edge.
-2. [PSOC™ 4 CAPSENSE™ training](https://github.com/Infineon/mtb-training-psoc-4-msclp-capsense) — Learn the MSCLP fundamentals and practice capacitive sensor performance and low-power tuning.
-3. Choose a sensing specialization:
+1. [PSOC™ 4 CAPSENSE™ training](https://github.com/Infineon/mtb-training-psoc-4-msclp-capsense) — Learn the MSCLP fundamentals and practice capacitive sensor performance and low-power tuning.
+2. Choose a sensing specialization:
    - [Inductive sensing (ISX)](https://github.com/Infineon/mtb-training-psoc-4-msclp-inductive) — Explore fly-back sensing, sensor design and construction, reliability, and manual and SmartSense™ tuning.
    - [Liquid Level Sensing (LLS)](https://github.com/Infineon/mtb-training-psoc-4-msclp-lls) — Learn liquid-level calibration and foam rejection through hands-on labs.
 
-## Dive deeper: testing and safety
+## Dive deeper
 
-These advanced trainings build on PSOC™ 4 and CAPSENSE experience:
+### Peripherals and fundamentals
+
+- [PSOC™ digital peripherals training](https://github.com/Infineon/mtb-training-psoc-digital-peripherals) — Build a foundation in project creation and common peripherals, including GPIO, UART, SCBs, TCPWMs, interrupts, SysTick, and WDT across PSOC™ 4, PSOC™ 6, and PSOC™ Edge.
+
+### Testing and safety
+
+These advanced trainings build on PSOC™ 4 and CAPSENSE™ experience:
 
 - [CAPSENSE™ built-in self-test (BIST)](https://github.com/Infineon/mtb-training-psoc-4-msclp-bist) — Understand CAPSENSE middleware self-tests, when to run them, and how to execute them at startup or periodically during runtime.
 - [Safety Test Library](https://github.com/Infineon/mtb-training-psoc-4-safety-test) — Explore functional-safety concepts and practice core peripheral, analog peripheral, and UART loopback tests using the PSOC™ 4 Safety Test Library.
